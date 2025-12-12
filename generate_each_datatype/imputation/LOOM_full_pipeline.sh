@@ -7,7 +7,7 @@ out=/path/to/data/imputation/
 tmp=/bigtmp/
 minimac_in=/path/to/data/imputation/
 samples=/file/get-rm_samples.txt
-header=/path/to/data/imputation/header.txt
+header=/file/header_imput.txt
 
 ### MAIN SCRIPT ###
 
