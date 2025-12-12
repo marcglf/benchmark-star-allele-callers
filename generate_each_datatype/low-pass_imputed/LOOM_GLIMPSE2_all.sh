@@ -5,7 +5,7 @@ nb_samples=$(wc -l $samples | awk '{print $1}')
 tmp="/bigtmp/"
 cram_path="/path/to/data/GeT-RM_low_pass_CRAM/"
 ref_path="/path/to/data/"
-header=${cram_path}header.txt
+header=/file/header_lowpass.txt
 
 seq 1 $nb_samples | xargs -I {} -P 1 bash -c '
     sample=$(sed -n '\''{}p'\'' '"${samples}"')
