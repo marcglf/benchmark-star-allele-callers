@@ -1,6 +1,6 @@
 ### LOOM LOW-PASS FULL PIPELINE ###
 
-samples="/path/to/data/GeT-RM_low_pass_CRAM/get-rm_samples.txt"
+samples="/file/get-rm_samples.txt"
 nb_samples=$(wc -l $samples | awk '{print $1}')
 tmp="/bigtmp/"
 cram_path="/path/to/data/GeT-RM_low_pass_CRAM/"
