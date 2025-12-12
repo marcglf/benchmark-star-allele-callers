@@ -17,9 +17,3 @@ seq 1 $nb_samples | xargs -I {} -P 11 bash -c '
     rm ${ID}.final.cram'
 
 mv /bigtmp/* /path/to/data/GeT-RM_low_pass_CRAM/
-
-cd /path/to/data/GeT-RM_low_pass_CRAM/
-
-samtools merge -O CRAM -o merge.low-pass.0.5x.cram -@20 *.low-pass.0.5x.cram
-
-samtools index merge.low-pass.0.5x.cram
