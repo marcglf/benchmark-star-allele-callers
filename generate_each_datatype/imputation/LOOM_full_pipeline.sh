@@ -4,7 +4,7 @@
 ### CONFIG ###
 path=/path/to/data/Genotyping/
 out=/path/to/data/imputation/
-tmp=/bigtmp/mgroslafaige/1KG/
+tmp=/bigtmp/
 minimac_in=/path/to/data/imputation/
 samples=/path/to/data/imputation/get-rm_samples.txt
 header=/path/to/data/imputation/header.txt
