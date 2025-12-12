@@ -1,0 +1,38 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=29/06/2025 - 03:47:47
+##source=GLIMPSE_phase v2.0.0
+##INFO=<ID=RAF,Number=A,Type=Float,Description="ALT allele frequency in the reference panel">
+##INFO=<ID=AF,Number=A,Type=Float,Description="ALT allele frequency computed from DS/GP field across target samples">
+##INFO=<ID=INFO,Number=A,Type=Float,Description="IMPUTE info quality score for diploid samples">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Phased genotypes">
+##FORMAT=<ID=DS,Number=1,Type=Float,Description="Genotype dosage">
+##FORMAT=<ID=GP,Number=3,Type=Float,Description="Genotype posteriors">
+##NMAIN=15
+##FPLOIDY=2
+##contig=<ID=chr1>
+##contig=<ID=chr2>
+##contig=<ID=chr3>
+##contig=<ID=chr4>
+##contig=<ID=chr5>
+##contig=<ID=chr6>
+##contig=<ID=chr7>
+##contig=<ID=chr8>
+##contig=<ID=chr9>
+##contig=<ID=chr10>
+##contig=<ID=chr11>
+##contig=<ID=chr12>
+##contig=<ID=chr13>
+##contig=<ID=chr14>
+##contig=<ID=chr15>
+##contig=<ID=chr16>
+##contig=<ID=chr17>
+##contig=<ID=chr18>
+##contig=<ID=chr19>
+##contig=<ID=chr20>
+##contig=<ID=chr21>
+##contig=<ID=chr22>
+##bcftools_concatVersion=1.20+htslib-1.20
+##bcftools_concatCommand=concat -o /bigtmp/mgroslafaige/1KG/NA12006_allchr_low-pass_0.5x_imputed_ligated.vcf.gz -O v -W /bigtmp/mgroslafaige/1KG/NA12006_chr1_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr2_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr3_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr4_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr5_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr6_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr7_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr8_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr9_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr10_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr11_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr12_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr13_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr14_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr15_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr16_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr17_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr18_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr19_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr20_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr21_low-pass_0.5x_imputed_ligated.bcf /bigtmp/mgroslafaige/1KG/NA12006_chr22_low-pass_0.5x_imputed_ligated.bcf; Date=Sun Jun 29 04:32:19 2025
+##bcftools_viewVersion=1.20+htslib-1.20
+##bcftools_viewCommand=view -h /bigtmp/mgroslafaige/1KG/NA12006_allchr_low-pass_0.5x_imputed_ligated.vcf.gz; Date=Wed Jul  2 13:55:58 2025
