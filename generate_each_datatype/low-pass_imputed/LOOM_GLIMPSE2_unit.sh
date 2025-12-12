@@ -25,7 +25,7 @@ bcftools index -f ${tmp}1000GP.chr${CHR}.no${sample}.sites.vcf.gz
 GLIMPSE2_chunk_static --input  ${tmp}1000GP.chr${CHR}.no${sample}.sites.vcf.gz --region chr${CHR} --output ${tmp}chunks.chr${CHR}.no${sample}.txt --map /PROJECTS/FranceGenRef/PGx/imputation/genetic_map/GLIMPSE2_map/genetic_maps.b38/chr${CHR}.b38.gmap.gz --sequential
 
 REF=${tmp}1000GP.chr${CHR}.no${sample}.bcf
-MAP=/PROJECTS/FranceGenRef/PGx/imputation/genetic_map/GLIMPSE2_map/genetic_maps.b38/chr${CHR}.b38.gmap.gz
+MAP=/path/to/data/GLIMPSE2_map/genetic_maps.b38/chr${CHR}.b38.gmap.gz
 while IFS="" read -r LINE || [ -n "$LINE" ];
 do
   printf -v ID "%02d" $(echo $LINE | cut -d" " -f1)
