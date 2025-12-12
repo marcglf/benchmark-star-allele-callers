@@ -10,6 +10,6 @@ header=${cram_path}header.txt
 seq 1 $nb_samples | xargs -I {} -P 1 bash -c '
     sample=$(sed -n '\''{}p'\'' '"${samples}"')
     echo ${sample}
-    ./LOOM_GLIMPSE2_unit.sh ${sample}'
+    ./LOOM_GLIMPSE2_unit.sh ${sample} ${tmp} ${cram_path} ${ref_path}'
 
 ./LOOM_GLIMPSE2_reheader.sh $cram_path $tmp $samples $header
