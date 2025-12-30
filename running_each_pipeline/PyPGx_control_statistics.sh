@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # filename
-fichier="1KG_cram_list.txt"
+fichier="/file/1KG_cram_list.txt"
 
 # read each line
 while IFS= read -r ligne; do
