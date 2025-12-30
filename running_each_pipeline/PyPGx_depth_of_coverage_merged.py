@@ -16,3 +16,4 @@ for i in l:
 data = fuc.api.pycov.CovFrame(data)
 metadata = t.metadata
 result = pypgx.sdk.Archive(metadata, data)
+result.to_file('1KG-depth-of-coverage.zip')
