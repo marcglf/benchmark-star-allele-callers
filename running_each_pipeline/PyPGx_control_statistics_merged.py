@@ -11,4 +11,4 @@ for i in l:
 
 metadata = t.metadata
 result = pypgx.sdk.Archive(metadata, data)
-result.to_file('1KG-control-statistics.zip')
+result.to_file('/path/to/data/control_statistics/all-control-statistics.zip')
