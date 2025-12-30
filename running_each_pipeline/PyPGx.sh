@@ -39,7 +39,7 @@ seq 1 9 | xargs -I {} -P 9 bash -c '
     out=/output/"${gene}"_1KG_WGS/
     echo "$gene"
     echo "$out"
-    pypgx run-chip-pipeline --force --assembly '"${assembly}"' $gene $out '"${vcf}"'
+    pypgx run-ngs-pipeline --force --assembly '"${assembly}"' --control-statistics ${control} --depth-of-coverage ${depth} --variants '"${vcf}"' $gene $out
 '
 
 
